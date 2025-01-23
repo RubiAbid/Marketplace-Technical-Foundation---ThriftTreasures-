@@ -1,0 +1,3 @@
+sanity         # Exclude the Sanity folder
+strapi         # Exclude the Strapi folder
+
