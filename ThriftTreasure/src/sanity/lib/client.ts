@@ -1,5 +1,9 @@
 import { createClient } from 'next-sanity'
 
+console.log('Sanity Project ID:', process.env.NEXT_PUBLIC_SANITY_PROJECT_ID);
+console.log('Sanity Access Token:', process.env.SANITY_ACCESS_TOKEN);
+
+
 export const client = createClient({
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
     dataset:"production",

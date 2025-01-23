@@ -38,6 +38,7 @@ const Note = () => {
             height={530} // Set the desired height
             width={500} // Set the desired width
             className="object-cover"
+            unoptimized={true} // Disable automatic optimization
           />
         </div>
       </div>
